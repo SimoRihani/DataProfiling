@@ -1,5 +1,4 @@
 # DataProfiling
- -Data Profiling scripts
 
  ## Synopsis
 
@@ -21,10 +20,10 @@
 
  Then run the following :
 
- 	cd DataProfiling/
-  chmod x *.sh
-  ./clean.sh
-  ./script.sh
+    cd DataProfiling/
+    chmod x *.sh
+    ./clean.sh
+    ./script.sh
 
  And follow instructions.
 
