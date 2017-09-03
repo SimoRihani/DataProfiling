@@ -21,7 +21,7 @@
  Then run the following :
 
     cd DataProfiling/
-    chmod x *.sh
+    chmod +x *.sh
     ./clean.sh
     ./script.sh
 
