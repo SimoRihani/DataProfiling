@@ -21,8 +21,8 @@ Save some files of Regular or Unregular label in `Ìnput/`directory (examples of
 Then run the following :
 	
 	cd DataProfiling/
-  chmod +x *.sh
-  ./clean.sh
+  	chmod +x *.sh
+ 	./clean.sh
 	./script.sh
   
 And follow instructions.
