@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2017 Mohammed RIHANI, Hamza BOURKIM, Oussama DIBT & Jasmin DIANTOUBA
+Copyright (c) 2017 Mohammed RIHANI,
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
