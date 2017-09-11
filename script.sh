@@ -27,4 +27,4 @@ for file in `ls -a transform/*.csv`
 echo -e "\n\n\t==>\033[31m $FOO \033[0m\n"
 python csv_to_excel.py $FOO
 python xlsTransform.py -f `echo "output.xls"` -s 1 -r 0 -o `echo "$name.xls"`
-rm `echo "output.xls"`
+# rm `echo "output.xls"`

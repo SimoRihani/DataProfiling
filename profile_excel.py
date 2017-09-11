@@ -1,19 +1,15 @@
-
-# Imports from the standard Python 2.7 library
 import getopt
 import sys
 
 # xlrd, see http://www.python-excel.org and https://pypi.python.org/pypi/xlrd
-# developed with version 0.9.3
 from xlrd import open_workbook
 
-# Local import - tablestat.py defines class TableStat etc.
-import tablestat 
+import tablestat
 
 '''
 Script to profile the values in sheets within an Excel file (xls or xlsx).
 '''
- 
+
 def profile_excel(header_skip, table, unique_max, file_name, sheet_index):
     '''
     Reads a XLS file using xlrd
@@ -41,7 +37,7 @@ def profile_excel(header_skip, table, unique_max, file_name, sheet_index):
                     while len(column_names) < len(row):
                         column_names.append("")
                     column_names = [ column_names[i] + str(row[i]) for i in xrange(len(row)) ]
-                    # detect the last header row           
+                    # detect the last header row
                     if rownum + 1 == header_skip:
                         # instantiate the stat collector
                         ts = tablestat.TableStat(unique_max, column_names)
@@ -56,11 +52,11 @@ def profile_excel(header_skip, table, unique_max, file_name, sheet_index):
             s = None
             wb_obj.unload_sheet(sheet_names[idx])
             # print report for this sheet
-            if table: 
+            if table:
                 # emit header when the first sheet is found (a bit of a hack)
                 if not found_sheet: ts.print_report_thead("Sheet name,Sheet index,")
                 ts.print_report_tbody("%s,%d," % (sheet_names[idx], idx))
-            else: 
+            else:
                 print ("---Begin sheet: '%s' (index %d)---" % (sheet_names[idx], idx))
                 ts.print_report()
                 print ("---End sheet: '%s' (index %d)---" % (sheet_names[idx], idx))
@@ -71,7 +67,7 @@ def profile_excel(header_skip, table, unique_max, file_name, sheet_index):
     # warn on bad arguments
     if not found_sheet:
         print("Failed to find sheet at index %d" % sheet_index)
-        
+
 def usage():
     '''
     Prints a usage message and exits.
@@ -103,7 +99,7 @@ def main(args):
         elif opt in ("-s"):
             sheetidx = int(optarg)
         elif opt in ("-t"):
-            table = True  
+            table = True
         elif opt in ("-u"):
             umax = int(optarg)
         else:
@@ -115,6 +111,3 @@ def main(args):
 # Pass all params after program name to our main
 if __name__ == "__main__":
     main(sys.argv[1:])
-            
-
-

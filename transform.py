@@ -15,18 +15,8 @@ with open(nameIn,'r') as csvinput:
         a = row
         b = row
         c = []
-        # print("HEHEHEHEHEHEH " + str(b))
 
-        # a= ['Sheet name','Sheet index','Column name','Column index','Data type','Empty count','Nonempty count','Density','Max length str','Min length str','Max number','Min number','Max date','Min date','Unique count','Unique values']
-        # a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-        # b = [][]
         column_nb = len(a)
-        # row_nb = len(reader)
-        # for j in (1, column_nb):
-        #     r.apend(r[j])
-        # row.append('test')
-        # all.append(r)
-        # print('TOTOTTOOTOTO  ' + str(column_nb))
 
         j = 1
         # for (is_last, row) in enumerate(ax.isLast(reader)):
@@ -43,10 +33,5 @@ with open(nameIn,'r') as csvinput:
         b.insert(0, 'Profil')
         c.insert(0, prof)
         print(str(b).translate(None, "'[]"))
-        print(str(c).translate(None, "'[]"))
-        # np.savetxt("FILENAME.csv", b, delimiter=",")
-        # print(type(b))
-        # print(c)
-        # writer.writerows(b)
-        # writer.writerows(b)
-        # writer.writerows(c)
+        print(str(c).translate(None, "'[]").replace('{u', '{').replace(', u', '; ').replace('orra,', 'orra'))
+        

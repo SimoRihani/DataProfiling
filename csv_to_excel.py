@@ -1,12 +1,6 @@
 #!/usr/bin/python
 # Tool to convert CSV files (with configurable delimiter and text wrap
 # character) to Excel spreadsheets.
-################################################################################
-# Found on http://sujitpal.blogspot.fr/2007/02/python-script-to-convert-csv-files-to.html
-# Requires setup.py install of pyExcelerator found on
-# https://pypi.python.org/pypi/pyExcelerator
-# Modified to concat csv files in different sheets
-################################################################################
 import string
 import sys
 import getopt
