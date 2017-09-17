@@ -40,6 +40,12 @@
  ### Supervisor
 
  - Jamal *ATIF* - Jamal.Atif@dauphine.fr
+ 
+ ### Jury
+ 
+ - Olivier *CAILLOUX* - Olivier.Cailloux@dauphine.fr
+ - Jamal *ATIF* - Jamal.Atif@dauphine.fr
+ - Patricia *LAVAGNA* - plavagna@cfa-afia.fr
 
 
 
