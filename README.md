@@ -8,7 +8,7 @@
 
  ## Motivation
 
- This project is part of the *M2 Miage ID* training at [Paris-Dauphine][] University, in particular for my final Thesis : How to make reliable the impacts on applications in interaction, following an evolution of a solution ?  https://mrihani.vvv.enseirb-matmeca.fr/donnee/memoireRIHANI.pdf      
+ This project is part of the *MSc Apprenticeship program, Miage IT & Decision* training at [Paris-Dauphine][] University, in particular for my final Thesis : How to make reliable the impacts on applications in interaction, following an evolution of a solution ?  https://mrihani.vvv.enseirb-matmeca.fr/donnee/memoireRIHANI.pdf      
 
 
  ## Deploy
