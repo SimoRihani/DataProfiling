@@ -44,10 +44,14 @@
 
  - Mohammed *RIHANI* - Mohammed.Rihani@dauphine.eu
 
- ### Supervisor
+ ### Academic tutor
 
  - Jamal *ATIF* - Jamal.Atif@dauphine.fr
+ 
+ 
+ ### Professional tutor
 
+ - Bertrand *CAILLERE*
 
 
  [Paris-Dauphine]: http://www.dauphine.fr/fr/index.html
