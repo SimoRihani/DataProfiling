@@ -8,7 +8,7 @@
 
  ## Motivation
 
- This project is part of the *M2 Miage ID* training at [Paris-Dauphine][] University, in particular for my final Thesis.      
+ This project is part of the *M2 Miage ID* training at [Paris-Dauphine][] University, in particular for my final Thesis : How to make reliable the impacts on applications in interaction, following an evolution of a solution ?  https://mrihani.vvv.enseirb-matmeca.fr/donnee/memoireRIHANI.pdf      
 
 
  ## Deploy
@@ -30,6 +30,13 @@
  ## License
 
  This project is licensed under the GNU LGPL, Version 3.0. See LICENSE for full license text.
+ 
+ ## Useful links
+ 
+A demonstration of Data Progiling process : https://www.youtube.com/watch?v=DyV9JNdT1Q0&feature=youtu.be 
+A demonstration of a prediction of a profil by a trained model RapidMiner (Naive Bayes classifier) : https://www.youtube.com/watch?v=DK4asVZL42U&feature=youtu.be
+Repport : https://mrihani.vvv.enseirb-matmeca.fr/donnee/memoireRIHANI.pdf
+Presentation : https://mrihani.vvv.enseirb-matmeca.fr/donnee/soutenanceRIHANI.pdf
 
  ## Contributors
 
@@ -40,12 +47,6 @@
  ### Supervisor
 
  - Jamal *ATIF* - Jamal.Atif@dauphine.fr
- 
- ### Jury
- 
- - Olivier *CAILLOUX* - Olivier.Cailloux@dauphine.fr
- - Jamal *ATIF* - Jamal.Atif@dauphine.fr
- - Patricia *LAVAGNA* - plavagna@cfa-afia.fr
 
 
 
