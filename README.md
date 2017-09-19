@@ -52,6 +52,12 @@
  ### Professional tutor
 
  - Bertrand *CAILLERE*
+ 
+ ### Jury
+ 
+ - Olivier *CAILLOUX*
+ - Jamal *ATIF*
+ - Patricia *LAVAGNA*
 
 
  [Paris-Dauphine]: http://www.dauphine.fr/fr/index.html
