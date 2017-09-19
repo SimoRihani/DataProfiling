@@ -33,10 +33,10 @@
  
  ## Useful links
  
-A demonstration of Data Progiling process : https://www.youtube.com/watch?v=DyV9JNdT1Q0&feature=youtu.be 
-A demonstration of a prediction of a profil by a trained model RapidMiner (Naive Bayes classifier) : https://www.youtube.com/watch?v=DK4asVZL42U&feature=youtu.be
-Repport : https://mrihani.vvv.enseirb-matmeca.fr/donnee/memoireRIHANI.pdf
-Presentation : https://mrihani.vvv.enseirb-matmeca.fr/donnee/soutenanceRIHANI.pdf
+- A demonstration of Data Progiling process : https://www.youtube.com/watch?v=DyV9JNdT1Q0&feature=youtu.be 
+- A demonstration of a prediction of a profil by a trained model RapidMiner (Naive Bayes classifier) : https://www.youtube.com/watch?v=DK4asVZL42U&feature=youtu.be
+- Repport : https://mrihani.vvv.enseirb-matmeca.fr/donnee/memoireRIHANI.pdf
+- Presentation : https://mrihani.vvv.enseirb-matmeca.fr/donnee/soutenanceRIHANI.pdf
 
  ## Contributors
 
