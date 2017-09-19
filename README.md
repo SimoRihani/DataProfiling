@@ -46,7 +46,7 @@
 
  ### Academic tutor
 
- - Jamal *ATIF* - Jamal.Atif@dauphine.fr
+ - Jamal *ATIF*
  
  
  ### Professional tutor
